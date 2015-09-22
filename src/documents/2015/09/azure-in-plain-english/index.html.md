@@ -64,11 +64,11 @@ The most interesting thing about this exercise is that Azure services are actual
  <tr><td>Azure Search</td><td>Index & Search</td><td>Add search capabilities to your website, or index data stored somewhere else.</td><td>CloudSearch</td></tr>
  <tr><td>SQL Data Warehouse</td><td>Structured Report Database</td><td>Store all of your company's data in a structured format for reporting.</td><td>RedShift</td></tr>
  <tr><td>Azure Data Lake</td><td>Unstructured Report Database</td><td>Store all of your company's data in any format for reporting.</td><td>&nbsp;</td></tr>
- <tr><td>HDInsight</td><td>Hosted Hadoop</td><td>Do Hadoopy things with massive amounts of data.</td><td>&nbsp;</td></tr>
- <tr><td>Machine Learning</td><td>Skynet</td><td>Train AI to predict the future using existing data. Examples include credit card fraud detection and Netflix movie recommendations.</td><td>&nbsp;</td></tr>
+ <tr><td>HDInsight</td><td>Hosted Hadoop</td><td>Do Hadoopy things with massive amounts of data.</td><td>EMR</td></tr>
+ <tr><td>Machine Learning</td><td>Skynet</td><td>Train AI to predict the future using existing data. Examples include credit card fraud detection and Netflix movie recommendations.</td><td>AWS Machine Learning</td></tr>
  <tr><td>Stream Analytics</td><td>Real-time data query</td><td>Look for patterns in data as it arrives.</td><td>&nbsp;</td></tr>
  <tr><td>Data Factory</td><td>Azure ETL</td><td>Orchestrate extract, transform, and load data processes.</td><td>Data Pipeline</td></tr>
- <tr><td>Event Hubs</td><td>IoT Ingestor</td><td>Ingest data at ANY scale inexpensively.</td><td>&nbsp;</td></tr>
+ <tr><td>Event Hubs</td><td>IoT Ingestor</td><td>Ingest data at ANY scale inexpensively.</td><td>Kinesis</td></tr>
  
  </table>
 
@@ -82,13 +82,13 @@ The most interesting thing about this exercise is that Azure services are actual
 		<td>**Like AWS...**</td>
 	</tr> 
  
- <tr><td>Virtual Network</td><td>Private Network</td><td>Put machines on the same, private network so that they talk to each other directly and privately. Expose services to the internet as needed.</td><td>&nbsp;</td></tr>
+ <tr><td>Virtual Network</td><td>Private Network</td><td>Put machines on the same, private network so that they talk to each other directly and privately. Expose services to the internet as needed.</td><td>VPC</td></tr>
  <tr><td>ExpressRoute</td><td>Fiber to Azure</td><td>Connect privately over an insanely fast pipe to an Azure datacenter. Make your local network part of your Azure network.</td><td>Direct Connect</td></tr>
- <tr><td>Load Balancer</td><td>Load Balancer</td><td>Split load between multiple services, and handle failures.</td><td>&nbsp;</td></tr>
- <tr><td>Traffic Manager</td><td>Datacenter Load Balancer</td><td>Split load between multiple datacenters, and handle datacenter outages.</td><td>&nbsp;</td></tr>
+ <tr><td>Load Balancer</td><td>Load Balancer</td><td>Split load between multiple services, and handle failures.</td><td>ELB</td></tr>
+ <tr><td>Traffic Manager</td><td>Datacenter Load Balancer</td><td>Split load between multiple datacenters, and handle datacenter outages.</td><td>ELB</td></tr>
  <tr><td>DNS</td><td>DNS Provider</td><td>Run a DNS server so that your domain names map to the correct IP addresses.</td><td>Route53</td></tr>
- <tr><td>VPN Gateway</td><td>Virtual Fiber to Azure</td><td>Connect privately to an Azure datacenter. Make your local network part of your Azure network.</td><td>&nbsp;</td></tr>
- <tr><td>Application Gateway</td><td>Web Site Proxy</td><td>Proxy all of your HTTP traffic. Host your SSL certs. Load balance with sticky sessions.</td><td>&nbsp;</td></tr>
+ <tr><td>VPN Gateway</td><td>Virtual Fiber to Azure</td><td>Connect privately to an Azure datacenter. Make your local network part of your Azure network.</td><td>VPC Gateway</td></tr>
+ <tr><td>Application Gateway</td><td>Web Site Proxy</td><td>Proxy all of your HTTP traffic. Host your SSL certs. Load balance with sticky sessions.</td><td>ELB</td></tr>
  <tr><td>CDN</td><td>CDN</td><td>Make your sites faster and more scalable by putting your static files on servers around the world close to your end users.</td><td>Cloudfront</td></tr>
  <tr><td>Media Services</td><td>Video Processor</td><td>Transcode video and distribute and manage it on the scale of the Olympics.</td><td>Elastic Transcoder</td></tr>
 
